@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Crypto Currency',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       initialBinding: AppBindings(),
       getPages: [...AppRouters.pages],
